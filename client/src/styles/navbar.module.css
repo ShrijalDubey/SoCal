@@ -1,0 +1,26 @@
+h1 , p , h3 ,h2 {
+  margin: 0;
+  padding: 0;
+  display: block;;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+}
+.streak{
+    border: 1px solid grey;
+    border-radius: 999px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 1rem;
+    color: grey;
+    background-color: rgb(202, 196, 196);
+    font-size: 1rem;
+    padding: 1rem 0.8rem;
+    font-weight: 600;
+}
