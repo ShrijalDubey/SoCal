@@ -1,0 +1,47 @@
+.Container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+.keypadButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #ff8a00, #ffb347);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.micButton {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #ff8a00, #ffb347);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.keypadButton:hover, .micButton:hover {
+    background: linear-gradient(90deg, #ff7a00, #ffa347);
+}   
+.keypadButton:active, .micButton:active {
+    background: linear-gradient(90deg, #e66f00, #e6a03d);
+}

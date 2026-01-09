@@ -5,6 +5,11 @@
   background: #fffaf4;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
   font-family: system-ui, sans-serif;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
 }
 .main{
     padding: 0.5rem 0.6rem;
