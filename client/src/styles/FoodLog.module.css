@@ -1,0 +1,80 @@
+.container {
+  max-width: 420px;
+  font-family: system-ui, sans-serif;
+    padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+  color: #8a5a44;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.count {
+  font-size: 13px;
+}
+
+.card {
+    background: #fffaf4;
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.mealName {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.qty {
+  font-weight: 400;
+  color: #888;
+}
+
+.subText {
+  font-size: 13px;
+  color: #777;
+  margin-top: 4px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.calories {
+  color: #ff6a2a;
+  font-weight: 600;
+}
+
+.remove {
+  border: none;
+  background: #ffe9e2;
+  color: #ff3b3b;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

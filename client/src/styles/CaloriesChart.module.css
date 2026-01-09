@@ -1,0 +1,62 @@
+.card {
+  max-width: 420px;
+  padding: 24px;
+  border-radius: 16px;
+  background: #fffaf4;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  font-family: system-ui, sans-serif;
+}
+.main{
+    padding: 0.5rem 0.6rem;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.calories {
+  font-size: 42px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.unit {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.subtitle {
+  margin-top: 4px;
+  color: #777;
+}
+
+.progressBg {
+  height: 1rem;
+  background: #eee;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #ff8a00, #ffb347);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.goal {
+  color: #666;
+}
+
+.remaining {
+  color: #22c55e;
+  font-weight: 600;
+}
