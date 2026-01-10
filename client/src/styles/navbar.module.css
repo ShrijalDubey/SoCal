@@ -5,11 +5,15 @@ h1 , p , h3 ,h2 {
 }
 .navbar {
   display: flex;
+  height: 4rem;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #ccc;
   padding: 0.5rem 1rem;
    background: #fffaf4;
+   position: fixed;
+   width: 100%; 
+   
 }
 .streak{
   border: 1px solid white;

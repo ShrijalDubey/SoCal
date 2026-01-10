@@ -15,10 +15,16 @@ const FoodLog = () => {
       unit: "bowl",
     },
     {
-      name: "Roti",
+      name: "Halwa",
       quantity: 1,
-      calories: 120,
-      unit: "piece",
+      calories: 250,
+      unit: "bowl",
+    },
+    {
+      name: "Dal",
+      quantity: 1,
+      calories: 150,
+      unit: "bowl",
     },
     {
       name: "Halwa",
@@ -33,10 +39,16 @@ const FoodLog = () => {
       unit: "bowl",
     },
     {
-      name: "Roti",
+      name: "Halwa",
       quantity: 1,
-      calories: 120,
-      unit: "piece",
+      calories: 250,
+      unit: "bowl",
+    },
+    {
+      name: "Dal",
+      quantity: 1,
+      calories: 150,
+      unit: "bowl",
     },
     {
       name: "Halwa",
@@ -51,12 +63,6 @@ const FoodLog = () => {
       unit: "bowl",
     },
     {
-      name: "Roti",
-      quantity: 1,
-      calories: 120,
-      unit: "piece",
-    },
-    {
       name: "Halwa",
       quantity: 1,
       calories: 250,
@@ -68,48 +74,7 @@ const FoodLog = () => {
       calories: 150,
       unit: "bowl",
     },
-    {
-      name: "Roti",
-      quantity: 1,
-      calories: 120,
-      unit: "piece",
-    },
-    {
-      name: "Halwa",
-      quantity: 1,
-      calories: 250,
-      unit: "bowl",
-    },
-    {
-      name: "Dal",
-      quantity: 1,
-      calories: 150,
-      unit: "bowl",
-    },
-    {
-      name: "Roti",
-      quantity: 1,
-      calories: 120,
-      unit: "piece",
-    },
-    {
-      name: "Halwa",
-      quantity: 1,
-      calories: 250,
-      unit: "bowl",
-    },
-    {
-      name: "Dal",
-      quantity: 1,
-      calories: 150,
-      unit: "bowl",
-    },
-    {
-      name: "Roti",
-      quantity: 1,
-      calories: 120,
-      unit: "piece",
-    },
+
   ];
 
   return (

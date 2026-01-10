@@ -2,7 +2,7 @@
   max-width: 420px;
   padding: 24px;
   border-radius: 16px;
-  background: #fffaf4;
+  background: #fff1e6;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
   font-family: system-ui, sans-serif;
   margin: auto;
@@ -12,7 +12,9 @@
 
 }
 .main{
+
     padding: 0.5rem 0.6rem;
+      padding-top: 4.5rem;
 }
 
 .center {
