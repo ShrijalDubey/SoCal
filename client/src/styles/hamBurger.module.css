@@ -1,0 +1,28 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 2000;
+}
+
+.menu {
+  position: fixed;
+  top: 4rem;
+  right: 0;
+  width: 70%;
+  max-width: 260px;
+  height: calc(100% - 4rem);
+  background: #fffaf4;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-shadow: -4px 0 12px rgba(0,0,0,0.15);
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.05rem;
+  font-weight: 500;
+}

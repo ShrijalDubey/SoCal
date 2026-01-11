@@ -25,13 +25,13 @@ h1 , p , h3 ,h2 {
   height: 1rem;
   color: white;
   background-color: rgb(202, 196, 196);
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding: 1rem 0.8rem;
   font-weight: 600;
   background: linear-gradient(90deg, #ff8a00, #ffb347);
 }
 .para {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: grey;
 }
 .rightnav {

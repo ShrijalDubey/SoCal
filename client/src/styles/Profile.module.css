@@ -1,10 +1,112 @@
-.main {
+.wrapper {
   padding-top: 5rem;
-  background-color: #fff1e6;
+  background: #fffaf4;
   min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.labelRow {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.icon,
+.goalIcon {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff1e6;
+  color: #ff8a00;
+}
+
+.goalIcon {
+  background: #fff2cc;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background: #f6f3ee;
+  padding: 0.7rem 0.8rem;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  width: 90%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.row .card {
+  margin: 0;
+  flex: 1;
+}
+
+.sectionTitle {
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  display: block;
+}
+
+.activityGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.activityBtn {
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  border: none;
+  background: #f6f3ee;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.active {
+  background: linear-gradient(90deg, #ff8a00, #ffb347);
+  color: white;
+  font-weight: 600;
+}
+
+
+.saveBtn {
+  width: 90%;
+  max-width: 420px;
+  margin: 1.5rem auto 0;
+  display: block;
+  padding: 0.8rem;
+  border-radius: 14px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #ff7a3c, #ffb347);
+  cursor: pointer;
 }
 
 .container {
@@ -25,50 +127,4 @@
 .username {
   font-size: 1.4rem;
   font-weight: 600;
-}
-
-.section {
-  width: 90%;
-  max-width: 420px;
-  background: white;
-  border-radius: 14px;
-  padding: 1rem 1.2rem;
-  margin-top: 1.2rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
-}
-
-.sectionTitle {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 0.8rem;
-}
-
-
-.row {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 0;
-  font-size: 0.9rem;
-  border-bottom: 1px solid #eee;
-}
-
-.row:last-child {
-  border-bottom: none;
-}
-
-
-.editButton {
-  width: 100%;
-  margin-top: 1rem;
-  padding: 0.6rem;
-  border-radius: 10px;
-  border: none;
-  font-weight: 600;
-  color: white;
-  cursor: pointer;
-  background: linear-gradient(90deg, #ff8a00, #ffb347);
-}
-
-.editButton:hover {
-  opacity: 0.9;
 }
